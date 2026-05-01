@@ -1,0 +1,127 @@
+ body {
+     background: #0e0e0e !important;
+ }
+
+ .card {
+     background: #161616;
+     border: 1px solid #242424;
+     border-radius: 8px;
+ }
+
+ .mono {
+     font-family: 'JetBrains Mono', monospace;
+ }
+
+ .lbl {
+     font-family: 'JetBrains Mono', monospace;
+     font-size: 10px;
+     letter-spacing: 1.6px;
+     text-transform: uppercase;
+     color: #f0a500;
+     display: block;
+     margin-bottom: 6px;
+     margin-top: 2px;
+ }
+
+ .qrow {
+     border-bottom: 1px solid #1e1e1e;
+     padding: 12px 0;
+ }
+
+ .qrow:last-child {
+     border-bottom: none;
+ }
+
+ .stile {
+     background: #0e0e0e;
+     border: 1px solid #1e1e1e;
+     border-radius: 6px;
+     text-align: center;
+     padding: 10px;
+ }
+
+ .snum {
+     font-family: 'JetBrains Mono', monospace;
+     font-size: 20px;
+     font-weight: 700;
+     color: #f0a500;
+ }
+
+ .slbl {
+     font-size: 10px;
+     color: #555;
+     text-transform: uppercase;
+     letter-spacing: .8px;
+     margin-top: 2px;
+ }
+
+ .bdg {
+     font-family: 'JetBrains Mono', monospace;
+     font-size: 10px;
+     padding: 2px 8px;
+     border-radius: 3px;
+     font-weight: 600;
+     white-space: nowrap;
+ }
+
+ .bdg-queued {
+     background: #2a2a2a;
+     color: #888;
+ }
+
+ .bdg-downloading {
+     background: #2a1800;
+     color: #f0a500;
+ }
+
+ .bdg-done {
+     background: #0d2318;
+     color: #4caf7d;
+ }
+
+ .bdg-failed {
+     background: #2a0d0d;
+     color: #d45b5b;
+ }
+
+ .bdg-cancelled {
+     background: #1e1e1e;
+     color: #666;
+ }
+
+ .dl-btn {
+     display: inline-block;
+     margin-top: 8px;
+     padding: 5px 14px;
+     background: #f0a500;
+     color: #0e0e0e !important;
+     font-family: 'Syne', sans-serif;
+     font-size: 12px;
+     font-weight: 700;
+     border-radius: 4px;
+     text-decoration: none;
+ }
+
+ .dl-btn:hover {
+     background: #ffc107;
+ }
+
+ .errlog {
+     background: #1a0a0a;
+     border: 1px solid #3a1515;
+     border-radius: 4px;
+     padding: 8px 10px;
+     margin-top: 6px;
+ }
+
+ .errline {
+     font-family: 'JetBrains Mono', monospace;
+     font-size: 11px;
+     color: #d45b5b;
+     word-break: break-all;
+     margin-bottom: 2px;
+ }
+
+ .errline:last-child {
+     margin-bottom: 0;
+ }
