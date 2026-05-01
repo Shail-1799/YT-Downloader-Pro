@@ -1,0 +1,4 @@
+dash>=2.17.0
+dash-mantine-components>=0.14.0
+yt-dlp
+gunicorn
